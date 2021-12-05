@@ -1,5 +1,5 @@
 # Python-Audio-Converter
-A Simple Python CLI Audio Converter, that can convert audio files from/to FLAC, M4A, MP2, MP3, and WAV.
+A Simple Python CLI Audio Converter, that can convert audio files from/to FLAC, M4A, MP2, MP3, OGG, and WAV.
 
 # Requirements
 * pydub
