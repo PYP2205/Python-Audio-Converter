@@ -5,7 +5,7 @@ Programmed by: Paramon Yevstigneyev
 Programmed in: Python 3.9.0 (64-Bit)
 
 Description:
-This is a Python Program, that can convert audio files from/to MP2, MP3, M4A, FlAC, and WAV.
+This is a Python Program, that can convert audio files from/to MP2, MP3, M4A, FlAC, OGG, and WAV.
 """
 
 # Used for checking if the file exists in the local directory.
@@ -14,7 +14,7 @@ import os
 # Used for converting the audio file in the local directory.
 from pydub import AudioSegment
 
-print("\nAudio File Converter: [flac, m4a, mp2, mp3, wav]\n")
+print("\nAudio File Converter: [flac, m4a, mp2, mp3, ogg, wav]\n")
 
 # This will contain the file name
 file = ""
@@ -60,6 +60,11 @@ while checking_format:
     # If the user enters 'm4a' as the new audio file format,
     # then it will break the loop.
     elif new_format.lower() == "m4a":
+        checking_format = False
+    
+    # If the user enters 'ogg' as the new audio file format,
+    # then it will break the loop.
+    elif new_format.lower() == "ogg":
         checking_format = False
 
     # If the user enters 'flac' as the new audio file format,
