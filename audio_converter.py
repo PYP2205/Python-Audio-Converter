@@ -98,11 +98,12 @@ while True:
     # If te user enters 'Y', then it will delete the previous file.
     if choice.upper() == "Y":
         os.remove(old_file)
+        break
 
     # If the user enters 'N', then it will end the program.
 
     elif choice.upper() == "N":
-        pass
+        break
 
     # If the user enters invalid input, then it will re-prompt the user for their choice until they neter valid input.
     else:
