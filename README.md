@@ -3,7 +3,7 @@ A Simple Python CLI Audio Converter, that can convert audio files from/to FLAC, 
 
 # Requirements
 * pydub
-* ffmeg
+* ffmpeg
 
 # Instructions
 Clone this repository "git clone https://github.com/ParamonPlay2205/Python-Audio-Converter/"
